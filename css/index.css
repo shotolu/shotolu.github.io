@@ -1,0 +1,392 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container, .head, .nav, .main, .work,
+.body{
+	width: 100%;
+}
+
+.head a{
+	text-decoration: none;
+}
+
+.head #logo{
+	float: left;
+	margin-left: 5px;
+}
+
+.head #logo #name, #motto{
+	font-family: helvetica;
+	color: black;
+}
+
+.head #logo #name{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.head #logo #motto{
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+
+.head .menu{
+	border: 1px solid lightgreen;
+	width: 40px;
+	height: 30px;
+	display: block;
+	cursor: pointer;
+	margin-right: 10px;
+	float: right;
+}
+
+.head .menu .dash{
+	width: 30px;
+	height: 3px;
+	margin: 5px auto;
+	background-color: lightgreen;
+}
+
+.head .content{
+    overflow: hidden;
+    position: relative;
+    left: 55px;
+    top: 30px;
+    display: none;
+}
+
+.head .content a{
+    color: black;
+    padding: 12px 20px;
+    position: relative;
+    display: block;
+    text-align: right;
+    font-family: helvetica;
+    font-size: 15px;
+    color: black;
+    transition: all .5s ease;
+}
+
+.head .content a:hover{
+	color: lightgreen;
+	transition: all .5s ease;
+}
+
+.head .content a #join{
+	width: 130px;
+	height: 20px;
+	background-color: lightgreen;
+	padding-right: 20px;
+	padding-top:5px;
+	border-radius: 5px;
+	color: #fff;
+	float: right;
+}
+
+.nav{
+    clear: both;	
+}
+
+.nav h1{
+	text-align: center;
+	font-family: helvetica;
+	font-size: 35px;
+	color: lightgreen;
+	padding-top: 40px;
+}
+
+.nav p{
+	text-align: center;
+	font-family: helvetica;
+	font-size: 18px;
+	word-spacing: 5px;
+	margin-top: 10px;
+}
+
+.nav .start{
+	width: 120px;
+	height: 25px;
+	border-radius: 5px;
+	background-color: lightgreen;
+	color: #fff;
+	font-family: helvetica;
+	font-size: 15px;
+	padding-top: 7px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.nav a{
+	text-decoration: none;
+}
+
+.main{
+	background-color: #EFEFEF;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+.main h3{
+	text-align: center;
+	font-family: helvetica;
+	font-size: 25px;
+	color: green;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.main .list{
+	width: 100%;
+}
+
+.main .list .image{
+	width: 300px;
+	height: 200px;
+	margin: 15px auto;
+}
+
+.main .list .a1{
+	background-image: url(images/picture4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.main .list .a2{
+	background-image: url(images/picture1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.main .list .a3{
+	background-image: url(images/picture3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.main .list h4{
+	text-align: center;
+	color: green;
+	font-size: 20px;
+	font-weight: normal;
+	font-family: helvetica;
+	margin-bottom: 15px;
+}
+
+.main .list p{
+   text-align: center;
+   padding: 5px 30px;
+   font-family: helvetica;
+   font-size: 18px;
+}
+
+.work h3{
+	text-align: center;
+	font-family: helvetica;
+	font-size: 22px;
+	color: green;
+	font-weight: bolder;
+}
+
+.work h4{
+	text-align: center;
+	color: green;
+	font-size: 25px;
+	font-weight: normal;
+	font-family: helvetica;
+	margin-top: 30px
+}
+
+.work p{
+   text-align: center;
+   padding: 5px 30px;
+   font-family: helvetica;
+   font-size: 18px;
+   margin-top: 10px;
+}
+
+.work .get{
+	width: 120px;
+	height: 25px;
+	border-radius: 5px;
+	background-color: lightgreen;
+	color: #fff;
+	font-family: helvetica;
+	font-size: 15px;
+	padding-top: 7px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+.work a{
+	text-decoration: none;
+}
+
+.work .box{
+	width: 240px;
+	border-radius: 3px;
+	margin: 40px auto;
+	box-shadow: 0px 3px 3px 1px grey;
+}
+
+.work .box div{
+	width: 236px;
+	height: 40px;
+	background-color: #3D966F;
+	margin: 0 auto;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	font-family: helvetica;
+	font-size: 18px;
+	color: #fff;
+	text-indent: 15px;
+	padding-top: 17px;
+}
+
+.work .box p{
+	font-family: helvetica;
+	font-size: 15px;
+	line-height: 25px;
+	display: inline-block;
+}
+
+.work .pic1{
+	width: 300px;
+	height: 200px;
+	margin: 15px auto; 
+	background-image: url(images/picture5.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.work .pic2{
+	width: 250px;
+	height: 200px;
+	border-radius: 3px;
+	margin: 15px auto;
+	background-image: url(images/picture2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.body{
+	background-color: #3D966F;
+	margin-top: 40px;
+}
+
+.body h3{
+	padding: 40px 20px 10px 20px;
+	font-family: helvetica;
+	color: #fff;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.body .icon{
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	background-color: #034E03;
+	float: left;
+	margin-left: 70px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.body .a1{
+	background-image: url(images/front.png);
+}
+
+.body .a2{
+	background-image: url(images/back.png);
+}
+
+.body .a3{
+	background-image: url(images/ui.png);
+}
+
+.body .a4{
+	background-image: url(images/mobile.png);
+}
+
+
+
+.body h4{
+	padding-left: 130px;
+	padding-bottom: 15px;
+	font-family: helvetica;
+	font-size: 20px;
+	font-weight: normal;
+	color: #fff;
+}
+
+.body p{
+	padding-left: 130px;
+	padding-bottom: 25px;
+	padding-right: 55px;
+	font-family: helvetica;
+	font-size: 15px;
+	font-weight: normal;
+	color: #fff;
+}
+
+.body .box{
+	width: 300px;
+	margin: 10px auto 0px auto;
+	background-color: #fff;
+	border-radius: 3px;
+}
+
+.body .box .collapsible{
+	width: 298px;
+	height: 50px;
+	margin-top: 1px;
+	margin-left: 1px;
+	background-color: #fff;
+	border: 0.5px solid lightgrey;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	font-family: helvetica;
+	font-size: 15px;
+	cursor: pointer;
+	transition: all .5s ease
+}
+
+.body .box .collapsible:hover{
+    	background-color: green;
+    	color: #fff;
+    	transition: all .5s ease;
+    }
+
+.body .box .collapsible:after{
+    	content: '\02795';
+    	float: right;
+    	font-size: 7px;
+    	margin-right: 5px;
+    }
+
+.body .box .active:after{
+    	content: "\2796";
+    }
+
+.body .box .content{
+    	font-family: helvetica;
+    	font-size: 15px;
+    	padding-left: 20px;
+    	overflow: hidden;
+        display: none;
+    }
+
+.body .box .content ul li{
+	list-style-type: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
