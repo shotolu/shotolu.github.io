@@ -1,0 +1,27 @@
+@media screen and (min-width: 600px)
+{
+	.container{
+		width: 100%;
+		max-width: 900px;
+		margin: auto;
+	}
+
+	.main .list .image{
+	width: 350px;
+	height: 250px;
+  }
+
+  .work .pic1{
+	width: 350px;
+	height: 250px;
+}
+
+.work .pic2{
+	width: 300px;
+	height: 250px;
+}
+
+
+
+
+}
