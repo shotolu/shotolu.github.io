@@ -21,7 +21,29 @@
 	height: 250px;
 }
 
+.mentors .persona{
+	width: 300px;
+}
+
+.mentors .persona .persona_image{
+	width: 250px;
+	margin-left: 23px;
+	margin-bottom: 45px;
+}
+
+.mentors .persona .persona_image img{
+	height: 250px;
+	width: 250px;
+}
 
 
+}
+
+@media screen and (min-width: 900px)
+{
+	.container{
+		max-width: 1500px;
+		margin: auto;
+	}
 
 }

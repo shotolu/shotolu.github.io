@@ -3,7 +3,7 @@
 	padding: 0;
 }
 .container, .head, .nav, .main, .work,
-.body{
+.body, .mentors, .support{
 	width: 100%;
 }
 
@@ -390,3 +390,282 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
+.mentors{
+	margin-top: 40px;
+}
+
+.mentors h4{
+    margin: 10px auto;
+	font-family: helvetica;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	color: green;
+}
+
+.mentors .persona{
+	width: 250px;
+	background-color: #fff;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+	margin: 50px auto;
+	transition: background-color 1s, box-shadow 1s;
+}
+
+.mentors .persona:hover{
+   background-color: rgba(0,0,0,0.01);
+   box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+.mentors .persona:hover .persona_image{
+	transform: rotate(5deg);
+}
+
+.mentors .persona .persona_image{
+	height: 220px;
+	padding-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	transition: height 1s, margin 1s, transform 1s;
+}
+
+.mentors .persona .persona_image img{
+	height: 220px;
+	width: 220px;
+	border-radius: 100%;
+}
+
+.mentors .persona .persona_name{
+	font-family: helvetica;
+	font-size: 15px;
+	font-weight: bolder;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.mentors .persona .persona_field{
+	font-family: helvetica;
+	font-size: 15px;
+	font-weight: normal;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.mentors .get{
+	width: 120px;
+	height: 25px;
+	border-radius: 5px;
+	background-color: lightgreen;
+	color: #fff;
+	font-family: helvetica;
+	font-size: 15px;
+	padding-top: 7px;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.mentors a{
+	text-decoration: none;
+}
+
+.mentors h2{
+	 margin: 5px auto;
+	font-family: helvetica;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: green;
+}
+
+.mentors .fade{
+	font-family: helvetica;
+	font-size: 18px;
+	text-align: center;
+	color: lightgrey;
+	margin-bottom: 20px;
+}
+
+.mentors .norm{
+	font-family: helvetica;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 0px 30px 0px 30px;
+}
+
+.mentors .learn{
+	font-family: helvetica;
+	font-size: 15px;
+	text-align: center;
+	color: lightgreen;
+	margin-bottom: 40px;
+}
+
+.support{
+	background-color: #3D966F;
+	padding-bottom: 20px;
+}
+
+.support h4{
+	padding-top: 30px;
+	font-family: helvetica;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+
+.support .icon{
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	margin: 30px auto;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: transform 1s
+}
+
+.support .icon:hover{
+   transform: rotateY(180deg);
+}
+
+.support .a1{
+	background-image: url(images/icon_money.jpg);
+}
+
+.support .a2{
+	background-image: url(images/icon_coporate.jpg);
+}
+
+.support .a3{
+	background-image: url(images/icon_card.jpg);
+}
+
+.support p{
+	margin-bottom: 15px;
+	font-family: helvetica;
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+}
+
+.support a{
+	text-decoration: none;
+}
+.footer{
+    background-color: #EFEFEF;
+}
+
+.footer #logo{
+	padding-top: 20px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+.footer #logo #name, #motto{
+	font-family: helvetica;
+	color: black;
+}
+
+.footer #logo #name{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.footer #logo #motto{
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+.footer h4{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-family: helvetica;
+	font-size: 20px;
+	padding-left: 20px;
+	font-weight: normal;
+	color: lightgreen;
+}
+
+.footer ul li{
+	font-size: 15px;
+	padding: 10px 20px;
+	font-family: helvetica;
+	list-style-type: none;
+}
+
+.footer a{
+	text-decoration: none;
+}
+
+.footer p{
+	font-size: 15px;
+	padding-left: 20px;
+	font-family: helvetica;
+	line-height: 20px;
+}
+
+.footer #twitter, #fb{
+	width: 20px;
+	height: 20px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.footer #twitter{
+	float: left;
+	margin-left: 20px;
+	background-image: url(images/twitter.png);
+}
+
+.footer #fb{
+	float: left;
+	margin-left: 5px;
+	background-image: url(images/facebook.png);
+}
+
+.footer .btm{
+	clear: both;
+}
+
+.footer form input{
+	width: 200px;
+	height: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.footer #news{
+	width: 200px;
+	height: 30px;
+	background-color: lightgreen;
+	margin-top: 10px;
+	margin-left: 20px;
+	font-size: 15px;
+	font-family: helvetica;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+}
+
+.footer #news #msg{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin: 4px 5px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(images/msg.png);
+}
+
+.footer #paul{
+	font-size: 15px;
+	text-align: center;
+	font-family: helvetica;
+	margin-top: 30px;
+	padding-bottom: 10px
+}
+
+
