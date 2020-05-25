@@ -80,14 +80,70 @@
 	background-color: lightgreen;
 	padding-right: 20px;
 	padding-top:5px;
+	margin-bottom: 40px;
 	border-radius: 5px;
 	color: #fff;
 	float: right;
 }
 
-.nav{
-    clear: both;	
-}
+ .slideshow-container{
+    	clear: both;
+    	max-width: 1000px;
+    	position: relative;
+    	margin: auto;
+    	font-family: helvetica;
+    	margin: auto;
+    }
+
+    .mySlide {display: none;}
+
+    .slideshow-container img {
+    	vertical-align: middle;
+    }
+
+
+    .text{
+    	color: #f5f5f5;
+    	text-align: center;
+    	font-size: 20px;
+    	font-weight: bold;
+    	padding: 8px 12px;
+    	position: absolute;
+    	bottom: 8px;
+    	width: 100%;
+    }
+
+    .dot{
+    	height: 15px;
+    	width: 15px;
+    	margin: 0 2px;
+    	background-color: #bbb;
+    	border-radius: 50%;
+    	display: inline-block;
+    	transition: background-color 0.6s ease;
+    }
+
+    .active{
+    	background-color: #717171;
+    }
+
+    .fade{
+    	-webkit-animation-name: fade;
+    	-webkit-animation-duration: 1.5s;
+    	animation-name: fade;
+    	animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade{
+    	from {opacity: .4}
+    	to {opacity: 1}
+    }
+
+    @keyframes fade{
+    	from {opacity: .4}
+    	to {opacity: 1}
+    }
+
 
 .nav h1{
 	text-align: center;
@@ -514,7 +570,7 @@
 	color: #fff;
 }
 
-.support .icon{
+.support .sup .icon{
 	width: 70px;
 	height: 70px;
 	border-radius: 100%;
@@ -525,23 +581,23 @@
 	transition: transform 1s
 }
 
-.support .icon:hover{
+.support .sup .icon:hover{
    transform: rotateY(180deg);
 }
 
-.support .a1{
+.support .sup .a1{
 	background-image: url(images/icon_money.jpg);
 }
 
-.support .a2{
+.support .sup .a2{
 	background-image: url(images/icon_coporate.jpg);
 }
 
-.support .a3{
+.support .sup .a3{
 	background-image: url(images/icon_card.jpg);
 }
 
-.support p{
+.support .sup p{
 	margin-bottom: 15px;
 	font-family: helvetica;
 	font-size: 15px;
@@ -549,9 +605,10 @@
 	color: #fff;
 }
 
-.support a{
+.support .sup a{
 	text-decoration: none;
 }
+
 .footer{
     background-color: #EFEFEF;
 }
@@ -631,6 +688,7 @@
 }
 
 .footer form input{
+	clear: both;
 	width: 200px;
 	height: 20px;
 	margin-top: 20px;

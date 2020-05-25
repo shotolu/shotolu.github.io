@@ -1,0 +1,107 @@
+@media screen and (min-width: 320px)
+{
+  .container{
+  	max-width: 400px;
+  	width: 100%
+  }
+
+ .head .content a #join{
+	width: 800px;
+	font-size: 10px;
+	padding-right: 5px;
+}
+}
+
+@media screen and (min-width: 400px)
+{
+   .container{
+   	max-width: 600px;
+   }
+
+   .head .content a #join{
+	width: 130px;
+	font-size: 15px;
+	padding-right: 20px;
+}
+
+
+}
+
+
+@media screen and (min-width: 600px)
+{
+  .container{
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .mentors .persona{
+  width: 300px;
+}
+
+.mentors .persona .persona_image{
+  width: 250px;
+  margin-left: 23px;
+  margin-bottom: 45px;
+}
+
+.mentors .persona .persona_image img{
+  height: 250px;
+  width: 250px;
+}
+
+}
+
+@media screen and (min-width: 900px)
+{
+  .container{
+    max-width: 1500px;
+    margin: auto;
+  }
+
+  .head .menu{
+    display: none;
+  }
+
+  .head .content{
+    display: block;
+    top: 0;
+    left: 100px;
+  }
+
+  .head .content a{
+    display: inline-block;
+  }
+
+  .head .content a #join{
+      float: none;
+}
+
+  .mentors .persona{
+    float: left;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 400px;
+  }
+
+  .footer{
+    clear: both;
+  }
+
+  .footer span{
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .footer #twitter, #fb{
+  width: 40px;
+  height: 40px;
+}
+
+  .btm{
+    clear: both;
+  }
+
+}
